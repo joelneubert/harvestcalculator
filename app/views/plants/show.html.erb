@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Commonname:</b>
+  <%= @plant.commonname %>
+</p>
+
+<p>
+  <b>Scientificname:</b>
+  <%= @plant.scientificname %>
+</p>
+
+<p>
+  <b>Timetoharvest:</b>
+  <%= @plant.timetoharvest %>
+</p>
+
+
+<%= link_to 'Edit', edit_plant_path(@plant) %> |
+<%= link_to 'Back', plants_path %>
